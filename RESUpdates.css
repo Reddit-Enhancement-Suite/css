@@ -10,7 +10,7 @@ body.front-page.res-hide-tagline-frontpage .tagline { display: none; }
   color: hsl(0,0%,65%);
 }
 
-.new-comment .usertext-body { margin: 0; }
+.res-v4-6-0 .new-comment .usertext-body { margin: 0; }
 
 .res-neverEndingReddit-hideFloatingPauseButton #NREPause { display: none; }
 
