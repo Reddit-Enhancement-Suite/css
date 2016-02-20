@@ -1,0 +1,3 @@
+[submodule "reddit"]
+	path = reddit
+	url = git@github.com:Reddit-Enhancement-Suite/redditbots
