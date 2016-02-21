@@ -1,0 +1,208 @@
+body.front-page.res-hide-tagline-frontpage .tagline { display: none; }
+
+.res-nightmode:not(.res-nightMode-coloredLinks) .thing .title {
+  color: hsl(0,0%,87%);
+}
+.res-nightmode:not(.res-nightMode-coloredLinks) .thing:not(.stickied) .title:visited,
+.res-nightmode:not(.res-nightMode-coloredLinks) .thing.visited:not(.stickied) .title,
+.res-nightmode:not(.res-nightMode-coloredLinks).combined-search-page .search-result a:visited,
+.res-nightmode:not(.res-nightMode-coloredLinks).combined-search-page .search-result a:visited > mark {
+  color: hsl(0,0%,65%);
+}
+
+.new-comment .usertext-body { margin: 0; }
+
+.res-neverEndingReddit-hideFloatingPauseButton #NREPause { display: none; }
+
+
+
+/* HEADER */
+
+res-stylesheet-theme-nightModeClassic-u-RunTillYouPuke #sr-header-area, .res-nightmode.res-stylesheet-theme-nightModeClassic-u-RunTillYouPuke #sr-more-link {
+    background-color: rgb(68, 68, 68) !important;
+    color: rgb(222, 222, 222) !important;
+}
+
+.res-nightmode.res-stylesheet-theme-nightModeClassic-u-RunTillYouPuke #RESSubredditGroupDropdown a, .res-nightmode.res-stylesheet-theme-nightModeClassic-u-RunTillYouPuke .RESNotificationContent, .res-nightmode.res-stylesheet-theme-nightModeClassic-u-RunTillYouPuke .RESNotificationFooter, .res-nightmode.res-stylesheet-theme-nightModeClassic-u-RunTillYouPuke .sr-bar a {
+    color: rgb(222, 222, 222) !important;
+}
+
+.res-nightmode.res-stylesheet-theme-nightModeClassic-u-RunTillYouPuke #header, .res-nightmode.res-stylesheet-theme-nightModeClassic-u-RunTillYouPuke .liveupdate-home .content {
+    background-color: rgb(105, 105, 105);
+    border-bottom: 1px solid rgb(160, 160, 160) !important;
+}
+
+.res-nightmode.res-stylesheet-theme-nightModeClassic-u-RunTillYouPuke .tabmenu li.selected a {
+    color: orangered;
+    background-color: white;
+    border: 1px solid rgb(160, 160, 160);
+    border-bottom: 1px solid white;
+}
+
+.res-nightmode.res-stylesheet-theme-nightModeClassic-u-RunTillYouPuke div#RESShortcutsEditContainer, .res-nightmode.res-stylesheet-theme-nightModeClassic-u-RunTillYouPuke div#RESShortcutsSort, .res-nightmode.res-stylesheet-theme-nightModeClassic-u-RunTillYouPuke div#RESShortcutsRight, .res-nightmode.res-stylesheet-theme-nightModeClassic-u-RunTillYouPuke div#RESShortcutsLeft, .res-nightmode.res-stylesheet-theme-nightModeClassic-u-RunTillYouPuke div#RESShortcutsAdd, .res-nightmode.res-stylesheet-theme-nightModeClassic-u-RunTillYouPuke div#RESShortcutsTrash {
+    background: rgb(68, 68, 68) !important;
+    color: rgb(140, 179, 217) !important;
+}
+
+/* FRONTPAGE */
+
+.res-nightmode.res-stylesheet-theme-nightModeClassic-u-RunTillYouPuke .thing {
+    padding: 7px;
+    margin: 0;
+    background-color: #222;
+}
+
+.res-nightmode.res-stylesheet-theme-nightModeClassic-u-RunTillYouPuke .thing:nth-of-type(4n+1) {
+    background: rgb(24, 24, 24);
+}
+
+.res-nightmode.res-stylesheet-theme-nightModeClassic-u-RunTillYouPuke .midcol .score, .res-nightmode.res-stylesheet-theme-nightModeClassic-u-RunTillYouPuke .moduleButton:not(.enabled) {
+    color: #c6c6c6 !important;
+}
+
+.res-nightmode.res-stylesheet-theme-nightModeClassic-u-RunTillYouPuke .rank .star, .res-nightmode.res-stylesheet-theme-nightModeClassic-u-RunTillYouPuke .link .score.likes, .res-nightmode.res-stylesheet-theme-nightModeClassic-u-RunTillYouPuke .linkcompressed .score.likes {
+    color: rgb(255, 69, 0) !important;
+}
+
+.res-nightmode.res-stylesheet-theme-nightModeClassic-u-RunTillYouPuke .rank .star, .res-nightmode.res-stylesheet-theme-nightModeClassic-u-RunTillYouPuke .link .score.dislikes, .res-nightmode.res-stylesheet-theme-nightModeClassic-u-RunTillYouPuke .linkcompressed .score.dislikes {
+    color: rgb(140, 179, 217) !important;
+}
+
+.res-nightmode.res-stylesheet-theme-nightModeClassic-u-RunTillYouPuke .content {
+    background: rgb(17, 17, 17);
+    border-color: rgb(17, 17, 17);
+}
+
+.res-nightmode.res-stylesheet-theme-nightModeClassic-u-RunTillYouPuke .link .rank {
+     color: #c6c6c6 !important;
+}
+
+.res-nightmode.res-stylesheet-theme-nightModeClassic-u-RunTillYouPuke .domain a {
+    color: rgb(173, 216, 230) !important;
+}
+
+.res-nightmode.res-stylesheet-theme-nightModeClassic-u-RunTillYouPuke .subreddit {
+    color: rgba(20, 150, 220, 0.8) !important;
+}
+
+.res-nightmode.res-stylesheet-theme-nightModeClassic-u-RunTillYouPuke .author {
+    color: rgba(20, 150, 220, 0.8) !important;
+}
+
+.res-nightmode.res-stylesheet-theme-nightModeClassic-u-RunTillYouPuke .live-timestamp {
+    color: #B3B375 !important;
+}
+
+.res-nightmode.res-stylesheet-theme-nightModeClassic-u-RunTillYouPuke .RES-keyNav-activeElement > .tagline, .res-nightmode.res-stylesheet-theme-nightModeClassic-u-RunTillYouPuke .RES-keyNav-activeElement .md-container > .md, .res-nightmode.res-stylesheet-theme-nightModeClassic-u-RunTillYouPuke .RES-keyNav-activeElement .md-container > .md p {
+    color: rgb(187, 187, 187) !important;
+}
+
+.res-nightmode.res-stylesheet-theme-nightModeClassic-u-RunTillYouPuke .flair, .res-nightmode.res-stylesheet-theme-nightModeClassic-u-RunTillYouPuke .linkflairlabel {
+    background-color: rgb(187, 187, 187);
+    color: rgb(0, 0, 0);
+    padding: 1px;
+}
+
+.res-nightmode.res-stylesheet-theme-nightModeClassic-u-RunTillYouPuke .titlebox form.toggle,
+.res-nightmode.res-stylesheet-theme-nightModeClassic-u-RunTillYouPuke .leavemoderator {
+    background: #262626 none no-repeat scroll center left !important;
+}
+
+.res-nightmode.res-stylesheet-theme-nightModeClassic-u-RunTillYouPuke:not(.res-nightmode.res-stylesheet-theme-nightModeClassic-u-RunTillYouPuke-coloredLinks) .thing:not(.stickied) .title:visited, .res-nightmode.res-stylesheet-theme-nightModeClassic-u-RunTillYouPuke:not(.res-nightmode.res-stylesheet-theme-nightModeClassic-u-RunTillYouPuke-coloredLinks) .thing.visited:not(.stickied) .title, .res-nightmode.res-stylesheet-theme-nightModeClassic-u-RunTillYouPuke:not(.res-nightmode.res-stylesheet-theme-nightModeClassic-u-RunTillYouPuke-coloredLinks).combined-search-page .search-result a:visited, .res-nightmode.res-stylesheet-theme-nightModeClassic-u-RunTillYouPuke:not(.res-nightmode.res-stylesheet-theme-nightModeClassic-u-RunTillYouPuke-coloredLinks).combined-search-page .search-result a:visited>mark {
+    color: rgb(120, 120, 120);
+}
+
+.res-nightmode.res-stylesheet-theme-nightModeClassic-u-RunTillYouPuke .md, .res-nightmode.res-stylesheet-theme-nightModeClassic-u-RunTillYouPuke .content .sitetable .thing .md, .res-nightmode.res-stylesheet-theme-nightModeClassic-u-RunTillYouPuke .RES-keyNav-activeElement .md-container > .md p {
+    color: rgb(222, 222, 222) !important;
+}
+
+.res-nightmode.res-stylesheet-theme-nightModeClassic-u-RunTillYouPuke .entry .buttons li a {
+    color: rgb(150, 150, 150) !important;
+}
+
+/* BUTTONS */
+
+.res-nightmode.res-stylesheet-theme-nightModeClassic-u-RunTillYouPuke .thing .expando-button, .res-nightmode.res-stylesheet-theme-nightModeClassic-u-RunTillYouPuke .thing .expando-button:hover {
+    background-image: url(%%buttons-nightmodeClassic-u-RunTillYouPuke%%);
+    background-color: transparent;
+}
+
+.res-nightmode.res-stylesheet-theme-nightModeClassic-u-RunTillYouPuke .expando-button.video-muted.collapsed {
+    background-position: 0px -384px !important;
+}
+
+.res-nightmode.res-stylesheet-theme-nightModeClassic-u-RunTillYouPuke .expando-button.video-muted.collapsed:hover {
+    background-position: 0px -408px !important;
+}
+
+.res-nightmode.res-stylesheet-theme-nightModeClassic-u-RunTillYouPuke .expando-button.video-muted.expanded {
+    background-position: 0px -432px !important;
+}
+
+.res-nightmode.res-stylesheet-theme-nightModeClassic-u-RunTillYouPuke .expando-button.video-muted.expanded:hover {
+    background-position: 0px -456px !important;
+}
+
+.res-nightmode.res-stylesheet-theme-nightModeClassic-u-RunTillYouPuke .expando-button.selftext.collapsed {
+    background-position: 0px -96px !important;
+}
+
+.res-nightmode.res-stylesheet-theme-nightModeClassic-u-RunTillYouPuke .expando-button.selftext.collapsed:hover{
+    background-position: 0px -120px !important;
+}
+
+.res-nightmode.res-stylesheet-theme-nightModeClassic-u-RunTillYouPuke .expando-button.selftext.expanded {
+    background-position: 0px -144px !important;
+}
+
+.res-nightmode.res-stylesheet-theme-nightModeClassic-u-RunTillYouPuke .expando-button.selftext.expanded:hover {
+    background-position: 0px -168px !important;
+}
+
+.res-nightmode.res-stylesheet-theme-nightModeClassic-u-RunTillYouPuke .expando-button.image.gallery.collapsed {
+    background-position: 0px -288px !important;
+}
+
+.res-nightmode.res-stylesheet-theme-nightModeClassic-u-RunTillYouPuke .expando-button.image.gallery.collapsed:hover {
+    background-position: 0px -312px !important;
+}
+
+.res-nightmode.res-stylesheet-theme-nightModeClassic-u-RunTillYouPuke .expando-button.image.gallery.expanded {
+    background-position: 0px -336px !important;
+}
+
+.res-nightmode.res-stylesheet-theme-nightModeClassic-u-RunTillYouPuke .expando-button.image.gallery.expanded:hover {
+    background-position: 0px -360px !important;
+}
+
+.res-nightmode.res-stylesheet-theme-nightModeClassic-u-RunTillYouPuke .expando-button.video.collapsed {
+    background-position: 0px -192px !important;
+}
+
+.res-nightmode.res-stylesheet-theme-nightModeClassic-u-RunTillYouPuke .expando-button.video.collapsed:hover {
+    background-position: 0px -216px !important;
+}
+
+.res-nightmode.res-stylesheet-theme-nightModeClassic-u-RunTillYouPuke .expando-button.video.expanded {
+    background-position: 0px -240px !important;
+}
+
+.res-nightmode.res-stylesheet-theme-nightModeClassic-u-RunTillYouPuke .expando-button.video.expanded:hover {
+    background-position: 0px -264px !important;
+}
+
+/* COMMENTS */
+
+.res-nightmode.res-stylesheet-theme-nightModeClassic-u-RunTillYouPuke .flair, .res-nightmode.res-stylesheet-theme-nightModeClassic-u-RunTillYouPuke .linkflairlabel {
+    padding: 0px !important;
+}
+
+.res-nightmode.res-stylesheet-theme-nightModeClassic-u-RunTillYouPuke.res-commentBoxes .comment, .res-nightmode.res-stylesheet-theme-nightModeClassic-u-RunTillYouPuke.res-commentBoxes .comment .comment .comment, .res-nightmode.res-stylesheet-theme-nightModeClassic-u-RunTillYouPuke.res-commentBoxes .comment .comment .comment .comment .comment, .res-nightmode.res-stylesheet-theme-nightModeClassic-u-RunTillYouPuke.res-commentBoxes .comment .comment .comment .comment .comment .comment .comment, .res-nightmode.res-stylesheet-theme-nightModeClassic-u-RunTillYouPuke.res-commentBoxes .comment .comment .comment .comment .comment .comment .comment .comment .comment {
+    background-color: rgb(24, 24, 24) !important;
+
+}
+
+.res-nightmode.res-stylesheet-theme-nightModeClassic-u-RunTillYouPuke.res-commentBoxes .comment .comment, .res-nightmode.res-stylesheet-theme-nightModeClassic-u-RunTillYouPuke.res-commentBoxes .comment .comment .comment .comment, .res-nightmode.res-stylesheet-theme-nightModeClassic-u-RunTillYouPuke.res-commentBoxes .comment .comment .comment .comment .comment .comment, .res-nightmode.res-stylesheet-theme-nightModeClassic-u-RunTillYouPuke.res-commentBoxes .comment .comment .comment .comment .comment .comment .comment .comment, .res-nightmode.res-stylesheet-theme-nightModeClassic-u-RunTillYouPuke.res-commentBoxes .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment {
+    background-color: rgb(34, 34, 34) !important;
+}
+
