@@ -116,8 +116,18 @@ res-stylesheet-theme-nightModeClassic-u-RunTillYouPuke #sr-header-area, .res-nig
     color: rgb(222, 222, 222) !important;
 }
 
+.res-nightmode.res-stylesheet-theme-nightModeClassic-u-RunTillYouPuke .combined-search-page .search-result a {
+    color: rgb(222, 222, 222);
+}
+
 .res-nightmode.res-stylesheet-theme-nightModeClassic-u-RunTillYouPuke .entry .buttons li a {
     color: rgb(150, 150, 150) !important;
+ }
+
+.res-nightmode.res-stylesheet-theme-nightModeClassic-u-RunTillYouPuke #RESSubredditGroupDropdown,
+.res-nightmode.res-stylesheet-theme-nightModeClassic-u-RunTillYouPuke #RESSubredditGroupDropdown > .RESShortcutsEditButtons {
+    background-color: rgb(68, 68, 68);
+    border-color: rgb(128, 128, 128);
 }
 
 /* BUTTONS */
