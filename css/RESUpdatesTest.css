@@ -14,3 +14,18 @@ body.front-page.res-hide-tagline-frontpage .tagline { display: none; }
 
 .res-neverEndingReddit-hideFloatingPauseButton #NREPause { display: none; }
 
+body.res-stylesheet-theme-nightModeClassic-u-RunTillYouPuke:before {
+    opacity: 0.9;
+    content: 'Visit /r/RESAnnouncements to restore your nightmode theme (https://redd.it/46xvsf)';
+    display: block;
+    position: fixed;
+    z-index: 1;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-top: 1px solid darkred;
+    padding: 1em;
+    background: #333;
+    color: #ccc;
+    text-align: center;
+}
