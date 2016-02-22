@@ -29,3 +29,30 @@ body.res-stylesheet-theme-nightModeClassic-u-RunTillYouPuke:before {
     color: #ccc;
     text-align: center;
 }
+
+ .res-r-nekoatsume .res-nightmode .link {
+    background-color: transparent;
+}
+
+.res-r-nekoatsume .res-nightmode .arrow.up,
+.res-r-nekoatsume .res-nightmode .arrow.up:hover {
+    background-image: url(%%r-nekoatsume-up3%%);
+    background-position: 0px 0px;
+}
+.res-r-nekoatsume .res-nightmode .arrow.upmod,
+.res-r-nekoatsume .res-nightmode .arrow.upmod:hover {
+    background-image: url(%%r-nekoatsume-upvote3%%);
+    background-position: 0px 0px;
+}
+
+.res-r-nekoatsume .res-nightmode .arrow.down,
+.res-r-nekoatsume .res-nightmode .arrow.down:hover {
+    background-image: url(%%r-nekoatsume-down4%%);
+    background-position: 0px 0px;
+}
+
+.res-r-nekoatsume .res-nightmode .arrow.downmod,
+.res-r-nekoatsume .res-nightmode .arrow.downmod:hover {
+    background-image: url(%%r-nekoatsume-downvote4%%);
+    background-position: 0px 0px;
+}
