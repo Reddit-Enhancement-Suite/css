@@ -12,6 +12,13 @@
 
 /* HEADER */
 
+.res-floater-visibleAfterScroll {
+/*
+    top: 5px !important;
+    z-index: 10000000000 !important;
+*/
+}
+
 .res-nightmode #sr-header-area,
 .res-nightmode #sr-more-link {
     background-color: rgb(68, 68, 68) !important;
@@ -22,19 +29,27 @@
 .res-nightmode #RESSubredditGroupDropdown > .RESShortcutsEditButtons .res-icon,
 .res-nightmode .RESNotificationContent, .res-nightmode .RESNotificationFooter,
 .res-nightmode .sr-bar a {
-    color: rgb(222, 222, 222) !important;
+    color: rgb(222, 222, 222);
 }
 
 .res-nightmode #header, .res-nightmode .liveupdate-home .content {
     background-color: rgb(105, 105, 105);
+    /*
     border-bottom: 1px solid rgb(160, 160, 160) !important;
+    */
+    border-bottom-color: rgb(160, 160, 160) !important;
 }
 
 .res-nightmode .tabmenu li.selected a {
     color: orangered;
     background-color: white;
+    /*
     border: 1px solid rgb(160, 160, 160);
     border-bottom: 1px solid white;
+    */
+    border-color: rgb(160, 160, 160);
+    border-bottom-color: white;
+/*    z-index: 100;*/
 }
 
 .res-nightmode div#RESShortcutsEditContainer,
@@ -47,14 +62,39 @@
 
 /* FRONTPAGE */
 
-.res-nightmode .thing {
-    padding: 7px;
+.res-nightmode .content .spacer {
+/*
+    margin-bottom: 0px !important;
+*/
+}
+
+.res-nightmode .NERPageMarker {
+    background-color: rgb(24, 24, 24);
+/*
+    margin: 0px !important;
+*/
+}
+
+.res-nightmode body.with-listing-chooser.listing-chooser-collapsed>.content{
+/*
+    margin-left: 10px !important;
+*/
+}
+
+.res-nightmode .thing.odd.link {
+/*
+    padding: 7px !important;
     margin: 0;
+*/
     background-color: #222;
 }
 
-.res-nightmode .thing:nth-of-type(4n+1) {
+.res-nightmode .thing.even.link{
     background: rgb(24, 24, 24);
+/*
+    padding: 7px !important;
+    margin: 0;
+*/
 }
 
 
@@ -76,6 +116,9 @@
 .res-nightmode .content {
     background: rgb(17, 17, 17);
     border-color: rgb(17, 17, 17);
+/*
+    margin: 0px;
+*/
 }
 
 .res-nightmode .link .rank {
@@ -107,12 +150,17 @@
 .res-nightmode .flair, .res-nightmode .linkflairlabel {
     background-color: rgb(187, 187, 187);
     color: rgb(0, 0, 0);
+/*
     padding: 1px;
+*/
 }
 
 .res-nightmode .titlebox form.toggle,
 .res-nightmode .leavemoderator {
+/*
     background: #262626 none no-repeat scroll center left !important;
+*/
+    background-color: #262626;
 }
 
 .res-nightmode:not(.res-nightMode-coloredLinks) .thing:not(.stickied) .title:visited,
@@ -134,12 +182,12 @@
 
 .res-nightmode .entry .buttons li a {
     color: rgb(150, 150, 150) !important;
- }
+}
 
 .res-nightmode #RESSubredditGroupDropdown,
 .res-nightmode #RESSubredditGroupDropdown > .RESShortcutsEditButtons {
-    background-color: rgb(68, 68, 68);
-    border-color: rgb(128, 128, 128);
+    background-color: rgb(68, 68, 68) !important;
+    border-color: rgb(128, 128, 128) !important;
 }
 
 /* BUTTONS */
@@ -218,10 +266,22 @@
 
 /* COMMENTS */
 
-.res-nightmode .flair, .res-nightmode .linkflairlabel {
-    padding: 0px !important;
+.res-nightmode .res-commentBoxes .comment {
+    border-color: transparent;
+/*
+    border-left-width: 0px !important;
+    border-right-width: 0px !important;
+    border-top-width: 0px !important;
+    border-bottom-width: 0px !important;
+*/
 }
-
+.res-nightmode .linkflairlabel, .res-nightmode .flair {
+/*
+    padding-top: 0px !important;
+    padding-left: 2px !important;
+    padding-right: 2px !important;
+*/
+}
 .res-nightmode.res-commentBoxes .comment,
 .res-nightmode.res-commentBoxes .comment .comment .comment,
 .res-nightmode.res-commentBoxes .comment .comment .comment .comment .comment,
@@ -230,7 +290,6 @@
     background-color: rgb(24, 24, 24) !important;
 
 }
-
 .res-nightmode.res-commentBoxes .comment .comment,
 .res-nightmode.res-commentBoxes .comment .comment .comment .comment,
 .res-nightmode.res-commentBoxes .comment .comment .comment .comment .comment .comment,
@@ -238,4 +297,3 @@
 .res-nightmode.res-commentBoxes .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment {
     background-color: rgb(34, 34, 34) !important;
 }
-
