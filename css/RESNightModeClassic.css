@@ -12,12 +12,16 @@
 
 /* HEADER */
 
-.res-nightmode #sr-header-area, .res-nightmode #sr-more-link {
+.res-nightmode #sr-header-area,
+.res-nightmode #sr-more-link {
     background-color: rgb(68, 68, 68) !important;
     color: rgb(222, 222, 222) !important;
 }
 
-.res-nightmode #RESSubredditGroupDropdown a, .res-nightmode .RESNotificationContent, .res-nightmode .RESNotificationFooter, .res-nightmode .sr-bar a {
+.res-nightmode #RESSubredditGroupDropdown a,
+.res-nightmode #RESSubredditGroupDropdown > .RESShortcutsEditButtons .res-icon,
+.res-nightmode .RESNotificationContent, .res-nightmode .RESNotificationFooter,
+.res-nightmode .sr-bar a {
     color: rgb(222, 222, 222) !important;
 }
 
@@ -33,7 +37,10 @@
     border-bottom: 1px solid white;
 }
 
-.res-nightmode div#RESShortcutsEditContainer, .res-nightmode div#RESShortcutsSort, .res-nightmode div#RESShortcutsRight, .res-nightmode div#RESShortcutsLeft, .res-nightmode div#RESShortcutsAdd, .res-nightmode div#RESShortcutsTrash {
+.res-nightmode div#RESShortcutsEditContainer,
+.res-nightmode div#RESShortcutsSort,
+.res-nightmode div#RESShortcutsRight, .res-nightmode div#RESShortcutsLeft,
+.res-nightmode div#RESShortcutsAdd, .res-nightmode div#RESShortcutsTrash {
     background: rgb(68, 68, 68) !important;
     color: rgb(140, 179, 217) !important;
 }
@@ -50,15 +57,19 @@
     background: rgb(24, 24, 24);
 }
 
-.res-nightmode .midcol .score, .res-nightmode .moduleButton:not(.enabled) {
+
+.res-nightmode .midcol .score,
+.res-nightmode .moduleButton:not(.enabled) {
     color: #c6c6c6 !important;
 }
 
-.res-nightmode .rank .star, .res-nightmode .link .score.likes, .res-nightmode .linkcompressed .score.likes {
+.res-nightmode .rank .star, .res-nightmode .link .score.likes,
+.res-nightmode .linkcompressed .score.likes {
     color: rgb(255, 69, 0) !important;
 }
 
-.res-nightmode .rank .star, .res-nightmode .link .score.dislikes, .res-nightmode .linkcompressed .score.dislikes {
+.res-nightmode .rank .star, .res-nightmode .link .score.dislikes,
+.res-nightmode .linkcompressed .score.dislikes {
     color: rgb(140, 179, 217) !important;
 }
 
@@ -87,7 +98,9 @@
     color: #B3B375 !important;
 }
 
-.res-nightmode .RES-keyNav-activeElement > .tagline, .res-nightmode .RES-keyNav-activeElement .md-container > .md, .res-nightmode .RES-keyNav-activeElement .md-container > .md p {
+.res-nightmode .RES-keyNav-activeElement > .tagline,
+.res-nightmode .RES-keyNav-activeElement .md-container > .md,
+.res-nightmode .RES-keyNav-activeElement .md-container > .md p {
     color: rgb(187, 187, 187) !important;
 }
 
@@ -102,11 +115,16 @@
     background: #262626 none no-repeat scroll center left !important;
 }
 
-.res-nightmode .thing:not(.stickied) .title:visited, .res-nightmode .thing.visited:not(.stickied) .title, .res-nightmode.combined-search-page .search-result a:visited, .res-nightmode.combined-search-page .search-result a:visited>mark {
+.res-nightmode:not(.res-nightMode-coloredLinks) .thing:not(.stickied) .title:visited,
+.res-nightmode:not(.res-nightMode-coloredLinks) .thing.visited:not(.stickied) .title,
+.res-nightmode:not(.res-nightMode-coloredLinks).combined-search-page .search-result a:visited,
+.res-nightmode:not(.res-nightMode-coloredLinks).combined-search-page .search-result a:visited>mark {
     color: rgb(120, 120, 120);
 }
 
-.res-nightmode .md, .res-nightmode .content .sitetable .thing .md, .res-nightmode .RES-keyNav-activeElement .md-container > .md p {
+.res-nightmode .md,
+.res-nightmode .content .sitetable .thing .md,
+.res-nightmode .RES-keyNav-activeElement .md-container > .md p {
     color: rgb(222, 222, 222) !important;
 }
 
@@ -126,7 +144,10 @@
 
 /* BUTTONS */
 
-.res-nightmode .thing .expando-button, .res-nightmode .thing .expando-button:hover {
+.res-nightmode .thing .expando-button,
+.res-nightmode .thing .expando-button:hover,
+.res-nightmode .expando-button,
+.res-nightmode .expando-button:hover {
     background-image: url(%%buttons-nightmodeClassic-u-RunTillYouPuke%%);
     background-color: transparent;
 }
@@ -201,12 +222,20 @@
     padding: 0px !important;
 }
 
-.res-nightmode.res-commentBoxes .comment, .res-nightmode.res-commentBoxes .comment .comment .comment, .res-nightmode.res-commentBoxes .comment .comment .comment .comment .comment, .res-nightmode.res-commentBoxes .comment .comment .comment .comment .comment .comment .comment, .res-nightmode.res-commentBoxes .comment .comment .comment .comment .comment .comment .comment .comment .comment {
+.res-nightmode.res-commentBoxes .comment,
+.res-nightmode.res-commentBoxes .comment .comment .comment,
+.res-nightmode.res-commentBoxes .comment .comment .comment .comment .comment,
+.res-nightmode.res-commentBoxes .comment .comment .comment .comment .comment .comment .comment,
+.res-nightmode.res-commentBoxes .comment .comment .comment .comment .comment .comment .comment .comment .comment {
     background-color: rgb(24, 24, 24) !important;
 
 }
 
-.res-nightmode.res-commentBoxes .comment .comment, .res-nightmode.res-commentBoxes .comment .comment .comment .comment, .res-nightmode.res-commentBoxes .comment .comment .comment .comment .comment .comment, .res-nightmode.res-commentBoxes .comment .comment .comment .comment .comment .comment .comment .comment, .res-nightmode.res-commentBoxes .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment {
+.res-nightmode.res-commentBoxes .comment .comment,
+.res-nightmode.res-commentBoxes .comment .comment .comment .comment,
+.res-nightmode.res-commentBoxes .comment .comment .comment .comment .comment .comment,
+.res-nightmode.res-commentBoxes .comment .comment .comment .comment .comment .comment .comment .comment,
+.res-nightmode.res-commentBoxes .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment {
     background-color: rgb(34, 34, 34) !important;
 }
 
