@@ -21,8 +21,8 @@
 
 .res-nightmode #sr-header-area,
 .res-nightmode #sr-more-link {
-    background-color: rgb(68, 68, 68) !important;
-    color: rgb(222, 222, 222) !important;
+    background-color: rgb(68, 68, 68);
+    color: rgb(222, 222, 222);
 }
 
 .res-nightmode #RESSubredditGroupDropdown a,
@@ -180,7 +180,7 @@
 .res-nightmode .md,
 .res-nightmode .content .sitetable .thing .md,
 .res-nightmode .RES-keyNav-activeElement .md-container > .md p {
-    color: rgb(222, 222, 222) !important;
+    color: rgb(222, 222, 222);
 }
 
 .res-nightmode .combined-search-page .search-result a {
@@ -188,13 +188,13 @@
 }
 
 .res-nightmode .entry .buttons li a {
-    color: rgb(150, 150, 150) !important;
+    color: rgb(150, 150, 150);
 }
 
 .res-nightmode #RESSubredditGroupDropdown,
 .res-nightmode #RESSubredditGroupDropdown > .RESShortcutsEditButtons {
-    background-color: rgb(68, 68, 68) !important;
-    border-color: rgb(128, 128, 128) !important;
+    background-color: rgb(68, 68, 68);
+    border-color: rgb(128, 128, 128);
 }
 
 /* BUTTONS */
@@ -208,67 +208,67 @@
 }
 
 .res-nightmode .expando-button.video-muted.collapsed {
-    background-position: 0px -384px !important;
+    background-position: 0px -384px;
 }
 
 .res-nightmode .expando-button.video-muted.collapsed:hover {
-    background-position: 0px -408px !important;
+    background-position: 0px -408px;
 }
 
 .res-nightmode .expando-button.video-muted.expanded {
-    background-position: 0px -432px !important;
+    background-position: 0px -432px;
 }
 
 .res-nightmode .expando-button.video-muted.expanded:hover {
-    background-position: 0px -456px !important;
+    background-position: 0px -456px;
 }
 
 .res-nightmode .expando-button.selftext.collapsed {
-    background-position: 0px -96px !important;
+    background-position: 0px -96px;
 }
 
 .res-nightmode .expando-button.selftext.collapsed:hover{
-    background-position: 0px -120px !important;
+    background-position: 0px -120px;
 }
 
 .res-nightmode .expando-button.selftext.expanded {
-    background-position: 0px -144px !important;
+    background-position: 0px -144px;
 }
 
 .res-nightmode .expando-button.selftext.expanded:hover {
-    background-position: 0px -168px !important;
+    background-position: 0px -168px;
 }
 
 .res-nightmode .expando-button.image.gallery.collapsed {
-    background-position: 0px -288px !important;
+    background-position: 0px -288px;
 }
 
 .res-nightmode .expando-button.image.gallery.collapsed:hover {
-    background-position: 0px -312px !important;
+    background-position: 0px -312px;
 }
 
 .res-nightmode .expando-button.image.gallery.expanded {
-    background-position: 0px -336px !important;
+    background-position: 0px -336px;
 }
 
 .res-nightmode .expando-button.image.gallery.expanded:hover {
-    background-position: 0px -360px !important;
+    background-position: 0px -360px;
 }
 
 .res-nightmode .expando-button.video.collapsed {
-    background-position: 0px -192px !important;
+    background-position: 0px -192px;
 }
 
 .res-nightmode .expando-button.video.collapsed:hover {
-    background-position: 0px -216px !important;
+    background-position: 0px -216px;
 }
 
 .res-nightmode .expando-button.video.expanded {
-    background-position: 0px -240px !important;
+    background-position: 0px -240px;
 }
 
 .res-nightmode .expando-button.video.expanded:hover {
-    background-position: 0px -264px !important;
+    background-position: 0px -264px;
 }
 
 /* COMMENTS */
