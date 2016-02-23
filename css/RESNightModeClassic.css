@@ -274,7 +274,7 @@
 /* COMMENTS */
 
 .res-nightmode .res-commentBoxes .comment {
-    border-color: transparent;
+    border-color: transparent !important;
 /*
     border-left-width: 0px !important;
     border-right-width: 0px !important;
