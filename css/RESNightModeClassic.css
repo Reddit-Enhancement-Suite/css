@@ -27,12 +27,14 @@
 
 .res-nightmode #RESSubredditGroupDropdown a,
 .res-nightmode #RESSubredditGroupDropdown > .RESShortcutsEditButtons .res-icon,
-.res-nightmode .RESNotificationContent, .res-nightmode .RESNotificationFooter,
+.res-nightmode .RESNotificationContent,
+.res-nightmode .RESNotificationFooter,
 .res-nightmode .sr-bar a {
     color: rgb(222, 222, 222);
 }
 
-.res-nightmode #header, .res-nightmode .liveupdate-home .content {
+.res-nightmode #header,
+.res-nightmode .liveupdate-home .content {
     background-color: rgb(105, 105, 105);
     /*
     border-bottom: 1px solid rgb(160, 160, 160) !important;
@@ -54,8 +56,10 @@
 
 .res-nightmode div#RESShortcutsEditContainer,
 .res-nightmode div#RESShortcutsSort,
-.res-nightmode div#RESShortcutsRight, .res-nightmode div#RESShortcutsLeft,
-.res-nightmode div#RESShortcutsAdd, .res-nightmode div#RESShortcutsTrash {
+.res-nightmode div#RESShortcutsRight,
+.res-nightmode div#RESShortcutsLeft,
+.res-nightmode div#RESShortcutsAdd,
+.res-nightmode div#RESShortcutsTrash {
     background: rgb(68, 68, 68) !important;
     color: rgb(140, 179, 217) !important;
 }
@@ -103,12 +107,14 @@
     color: #c6c6c6 !important;
 }
 
-.res-nightmode .rank .star, .res-nightmode .link .score.likes,
+.res-nightmode .rank .star,
+.res-nightmode .link .score.likes,
 .res-nightmode .linkcompressed .score.likes {
     color: rgb(255, 69, 0) !important;
 }
 
-.res-nightmode .rank .star, .res-nightmode .link .score.dislikes,
+.res-nightmode .rank .star,
+.res-nightmode .link .score.dislikes,
 .res-nightmode .linkcompressed .score.dislikes {
     color: rgb(140, 179, 217) !important;
 }
@@ -147,7 +153,8 @@
     color: rgb(187, 187, 187) !important;
 }
 
-.res-nightmode .flair, .res-nightmode .linkflairlabel {
+.res-nightmode .flair,
+.res-nightmode .linkflairlabel {
     background-color: rgb(187, 187, 187);
     color: rgb(0, 0, 0);
 /*
@@ -275,7 +282,8 @@
     border-bottom-width: 0px !important;
 */
 }
-.res-nightmode .linkflairlabel, .res-nightmode .flair {
+.res-nightmode .linkflairlabel,
+.res-nightmode .flair {
 /*
     padding-top: 0px !important;
     padding-left: 2px !important;
