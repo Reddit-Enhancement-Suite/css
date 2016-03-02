@@ -1,2 +1,4 @@
 #Contains secret keys
+*.pyc
+
 credentials.sh  
