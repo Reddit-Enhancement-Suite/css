@@ -3,9 +3,9 @@ body.front-page.res-hide-tagline-frontpage .tagline { display: none; }
 .res-nightmode:not(.res-nightMode-coloredLinks) .thing .title {
   color: hsl(0,0%,87%);
 }
-.res-nightmode:not(.res-nightMode-coloredLinks) .thing:not(.stickied) .title:visited, 
-.res-nightmode:not(.res-nightMode-coloredLinks) .thing.visited:not(.stickied) .title, 
-.res-nightmode:not(.res-nightMode-coloredLinks).combined-search-page .search-result a:visited, 
+.res-nightmode:not(.res-nightMode-coloredLinks) .thing:not(.stickied) .title:visited,
+.res-nightmode:not(.res-nightMode-coloredLinks) .thing.visited:not(.stickied) .title,
+.res-nightmode:not(.res-nightMode-coloredLinks).combined-search-page .search-result a:visited,
 .res-nightmode:not(.res-nightMode-coloredLinks).combined-search-page .search-result a:visited > mark {
   color: hsl(0,0%,65%);
 }
@@ -37,7 +37,7 @@ res-stylesheet-theme-nightModeClassic-u-RunTillYouPuke #sr-header-area, .res-nig
     background-color: white;
     border: 1px solid rgb(160, 160, 160);
     border-bottom: 1px solid white;
-} 
+}
 
 .res-nightmode.res-stylesheet-theme-nightModeClassic-u-RunTillYouPuke div#RESShortcutsEditContainer, .res-nightmode.res-stylesheet-theme-nightModeClassic-u-RunTillYouPuke div#RESShortcutsSort, .res-nightmode.res-stylesheet-theme-nightModeClassic-u-RunTillYouPuke div#RESShortcutsRight, .res-nightmode.res-stylesheet-theme-nightModeClassic-u-RunTillYouPuke div#RESShortcutsLeft, .res-nightmode.res-stylesheet-theme-nightModeClassic-u-RunTillYouPuke div#RESShortcutsAdd, .res-nightmode.res-stylesheet-theme-nightModeClassic-u-RunTillYouPuke div#RESShortcutsTrash {
     background: rgb(68, 68, 68) !important;
@@ -53,7 +53,7 @@ res-stylesheet-theme-nightModeClassic-u-RunTillYouPuke #sr-header-area, .res-nig
 }
 
 .res-nightmode.res-stylesheet-theme-nightModeClassic-u-RunTillYouPuke .thing:nth-of-type(4n+1) {
-    background: rgb(24, 24, 24); 
+    background: rgb(24, 24, 24);
 }
 
 .res-nightmode.res-stylesheet-theme-nightModeClassic-u-RunTillYouPuke .midcol .score, .res-nightmode.res-stylesheet-theme-nightModeClassic-u-RunTillYouPuke .moduleButton:not(.enabled) {
@@ -69,8 +69,8 @@ res-stylesheet-theme-nightModeClassic-u-RunTillYouPuke #sr-header-area, .res-nig
 }
 
 .res-nightmode.res-stylesheet-theme-nightModeClassic-u-RunTillYouPuke .content {
-    background: rgb(17, 17, 17); 
-    border-color: rgb(17, 17, 17); 
+    background: rgb(17, 17, 17);
+    border-color: rgb(17, 17, 17);
 }
 
 .res-nightmode.res-stylesheet-theme-nightModeClassic-u-RunTillYouPuke .link .rank {
@@ -101,9 +101,9 @@ res-stylesheet-theme-nightModeClassic-u-RunTillYouPuke #sr-header-area, .res-nig
     background-color: rgb(187, 187, 187);
     color: rgb(0, 0, 0);
     padding: 1px;
-}    
+}
 
-.res-nightmode.res-stylesheet-theme-nightModeClassic-u-RunTillYouPuke .titlebox form.toggle, 
+.res-nightmode.res-stylesheet-theme-nightModeClassic-u-RunTillYouPuke .titlebox form.toggle,
 .res-nightmode.res-stylesheet-theme-nightModeClassic-u-RunTillYouPuke .leavemoderator {
     background: #262626 none no-repeat scroll center left !important;
 }
@@ -206,3 +206,38 @@ res-stylesheet-theme-nightModeClassic-u-RunTillYouPuke #sr-header-area, .res-nig
     background-color: rgb(34, 34, 34) !important;
 }
 
+/* Subreddit style checkbox */
+
+.res .side .titlebox form.res-sr-style-toggle {
+	display: block !important;
+	position: static !important;
+	font-size: 12px !important;
+	margin: 0 0 5px 0;
+	padding: 0;
+	width: auto;
+	height: auto;
+	color: inherit;
+	border: none;
+	background-color: transparent;
+}
+.res .side .titlebox form.res-sr-style-toggle input {
+	display: inline-block !important;
+	position: static !important;
+	margin: 0 5px 0 0;
+	vertical-align: middle;
+}
+.res .side .titlebox form.res-sr-style-toggle label {
+	display: inline !important;
+	position: static !important;
+	font-size: inherit !important;
+	padding: 0;
+	line-height: 1;
+}
+.res .side .titlebox form.res-sr-style-toggle:before,
+.res .side .titlebox form.res-sr-style-toggle:after,
+.res .side .titlebox form.res-sr-style-toggle input:before,
+.res .side .titlebox form.res-sr-style-toggle input:after,
+.res .side .titlebox form.res-sr-style-toggle label:before,
+.res .side .titlebox form.res-sr-style-toggle label:after {
+	content: none;
+}
