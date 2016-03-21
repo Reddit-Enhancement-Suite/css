@@ -3,9 +3,9 @@ body.front-page.res-hide-tagline-frontpage .tagline { display: none; }
 .res-nightmode:not(.res-nightMode-coloredLinks) .thing .title {
   color: hsl(0,0%,87%);
 }
-.res-nightmode:not(.res-nightMode-coloredLinks) .thing:not(.stickied) .title:visited, 
-.res-nightmode:not(.res-nightMode-coloredLinks) .thing.visited:not(.stickied) .title, 
-.res-nightmode:not(.res-nightMode-coloredLinks).combined-search-page .search-result a:visited, 
+.res-nightmode:not(.res-nightMode-coloredLinks) .thing:not(.stickied) .title:visited,
+.res-nightmode:not(.res-nightMode-coloredLinks) .thing.visited:not(.stickied) .title,
+.res-nightmode:not(.res-nightMode-coloredLinks).combined-search-page .search-result a:visited,
 .res-nightmode:not(.res-nightMode-coloredLinks).combined-search-page .search-result a:visited > mark {
   color: hsl(0,0%,65%);
 }
@@ -37,7 +37,7 @@ res-stylesheet-theme-nightModeClassic-u-RunTillYouPuke #sr-header-area, .res-nig
     background-color: white;
     border: 1px solid rgb(160, 160, 160);
     border-bottom: 1px solid white;
-} 
+}
 
 .res-nightmode.res-stylesheet-theme-nightModeClassic-u-RunTillYouPuke div#RESShortcutsEditContainer, .res-nightmode.res-stylesheet-theme-nightModeClassic-u-RunTillYouPuke div#RESShortcutsSort, .res-nightmode.res-stylesheet-theme-nightModeClassic-u-RunTillYouPuke div#RESShortcutsRight, .res-nightmode.res-stylesheet-theme-nightModeClassic-u-RunTillYouPuke div#RESShortcutsLeft, .res-nightmode.res-stylesheet-theme-nightModeClassic-u-RunTillYouPuke div#RESShortcutsAdd, .res-nightmode.res-stylesheet-theme-nightModeClassic-u-RunTillYouPuke div#RESShortcutsTrash {
     background: rgb(68, 68, 68) !important;
@@ -53,7 +53,7 @@ res-stylesheet-theme-nightModeClassic-u-RunTillYouPuke #sr-header-area, .res-nig
 }
 
 .res-nightmode.res-stylesheet-theme-nightModeClassic-u-RunTillYouPuke .thing:nth-of-type(4n+1) {
-    background: rgb(24, 24, 24); 
+    background: rgb(24, 24, 24);
 }
 
 .res-nightmode.res-stylesheet-theme-nightModeClassic-u-RunTillYouPuke .midcol .score, .res-nightmode.res-stylesheet-theme-nightModeClassic-u-RunTillYouPuke .moduleButton:not(.enabled) {
@@ -69,8 +69,8 @@ res-stylesheet-theme-nightModeClassic-u-RunTillYouPuke #sr-header-area, .res-nig
 }
 
 .res-nightmode.res-stylesheet-theme-nightModeClassic-u-RunTillYouPuke .content {
-    background: rgb(17, 17, 17); 
-    border-color: rgb(17, 17, 17); 
+    background: rgb(17, 17, 17);
+    border-color: rgb(17, 17, 17);
 }
 
 .res-nightmode.res-stylesheet-theme-nightModeClassic-u-RunTillYouPuke .link .rank {
@@ -101,9 +101,9 @@ res-stylesheet-theme-nightModeClassic-u-RunTillYouPuke #sr-header-area, .res-nig
     background-color: rgb(187, 187, 187);
     color: rgb(0, 0, 0);
     padding: 1px;
-}    
+}
 
-.res-nightmode.res-stylesheet-theme-nightModeClassic-u-RunTillYouPuke .titlebox form.toggle, 
+.res-nightmode.res-stylesheet-theme-nightModeClassic-u-RunTillYouPuke .titlebox form.toggle,
 .res-nightmode.res-stylesheet-theme-nightModeClassic-u-RunTillYouPuke .leavemoderator {
     background: #262626 none no-repeat scroll center left !important;
 }
@@ -206,3 +206,89 @@ res-stylesheet-theme-nightModeClassic-u-RunTillYouPuke #sr-header-area, .res-nig
     background-color: rgb(34, 34, 34) !important;
 }
 
+/* ADAPT TO NEW EXPANDO BUTTONS */
+
+.thing .entry .expando-button.expanded,
+.thing .entry .expando-button.expanded:hover,
+.thing .entry .expando-button.collapsed,
+.thing .entry .expando-button.collapsed:hover {
+	background-image: url(http://i.imgur.com/zCKOfnp.png);
+}
+.thing .entry .md .expando-button {
+	vertical-align: middle;
+	margin: 0 4px 0 4px;
+	float: none;
+	display: inline-block;
+}
+.thing .entry .expando-button.collapsed.selftext {
+	background-position: 0 -78px;
+}
+.thing .entry .expando-button.collapsed.selftext:hover {
+	background-position: 0 -52px;
+}
+.thing .entry .expando-button.expanded {
+	background-position: 0 -26px;
+}
+.thing .entry .expando-button.expanded:hover {
+	background-position: 0 -0px;
+}
+.thing .entry .expando-button.collapsed.image {
+	background-position: 0 -130px;
+}
+.thing .entry .expando-button.collapsed.image:hover {
+	background-position: 0 -104px;
+}
+.thing .entry .expando-button.collapsed.image.gallery {
+	background-position: 0 -182px;
+}
+.thing .entry .expando-button.collapsed.image.gallery:hover {
+	background-position: 0 -156px;
+}
+.thing .entry .expando-button.collapsed.video {
+	background-position: 0 -234px;
+}
+.thing .entry .expando-button.collapsed.video:hover {
+	background-position: 0 -208px;
+}
+.thing .entry .expando-button.collapsed.video-muted {
+	background-position: 0 -286px;
+}
+.thing .entry .expando-button.collapsed.video-muted:hover {
+	background-position: 0 -260px;
+}
+
+/* Make NSFW buttons red instead of striped */
+.res-showImages-highlightNSFWButton .thing.over18 .expando-button::before,
+.res-highlight-nsfw-expando .thing.over18 .expando-button::before {
+	content: "";
+	box-sizing: border-box;
+	border-radius: 50%;
+	width: 20px;
+	height: 20px;
+	border: 1px solid hsla(0, 0%, 100%, 1); /* aliased edge */
+	background: hsla(0, 50%, 50%, 1);
+	mix-blend-mode: color;
+}
+
+/* nightmode */
+.res-nightmode .expando-button {
+	opacity: 1;
+}
+.res-nightmode .thing .expando-button.collapsed.selftext {
+	background-position: -28px -78px;
+}
+.res-nightmode .thing .expando-button.collapsed.video-muted {
+	background-position: -28px -286px;
+}
+.res-nightmode .thing .expando-button.collapsed.video {
+	background-position: -28px -234px;
+}
+.res-nightmode .thing .expando-button.collapsed.image.gallery {
+	background-position: -28px -182px;
+}
+.res-nightmode .thing .expando-button.collapsed.image {
+	background-position: -28px -130px;
+}
+.res-nightmode .thing .expando-button.expanded {
+	background-position: -28px -26px;
+}
