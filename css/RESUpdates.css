@@ -3,9 +3,9 @@ body.front-page.res-hide-tagline-frontpage .tagline { display: none; }
 .res-nightmode:not(.res-nightMode-coloredLinks) .thing .title {
   color: hsl(0,0%,87%);
 }
-.res-nightmode:not(.res-nightMode-coloredLinks) .thing:not(.stickied) .title:visited, 
-.res-nightmode:not(.res-nightMode-coloredLinks) .thing.visited:not(.stickied) .title, 
-.res-nightmode:not(.res-nightMode-coloredLinks).combined-search-page .search-result a:visited, 
+.res-nightmode:not(.res-nightMode-coloredLinks) .thing:not(.stickied) .title:visited,
+.res-nightmode:not(.res-nightMode-coloredLinks) .thing.visited:not(.stickied) .title,
+.res-nightmode:not(.res-nightMode-coloredLinks).combined-search-page .search-result a:visited,
 .res-nightmode:not(.res-nightMode-coloredLinks).combined-search-page .search-result a:visited > mark {
   color: hsl(0,0%,65%);
 }
@@ -37,7 +37,7 @@ res-stylesheet-theme-nightModeClassic-u-RunTillYouPuke #sr-header-area, .res-nig
     background-color: white;
     border: 1px solid rgb(160, 160, 160);
     border-bottom: 1px solid white;
-} 
+}
 
 .res-nightmode.res-stylesheet-theme-nightModeClassic-u-RunTillYouPuke div#RESShortcutsEditContainer, .res-nightmode.res-stylesheet-theme-nightModeClassic-u-RunTillYouPuke div#RESShortcutsSort, .res-nightmode.res-stylesheet-theme-nightModeClassic-u-RunTillYouPuke div#RESShortcutsRight, .res-nightmode.res-stylesheet-theme-nightModeClassic-u-RunTillYouPuke div#RESShortcutsLeft, .res-nightmode.res-stylesheet-theme-nightModeClassic-u-RunTillYouPuke div#RESShortcutsAdd, .res-nightmode.res-stylesheet-theme-nightModeClassic-u-RunTillYouPuke div#RESShortcutsTrash {
     background: rgb(68, 68, 68) !important;
@@ -53,7 +53,7 @@ res-stylesheet-theme-nightModeClassic-u-RunTillYouPuke #sr-header-area, .res-nig
 }
 
 .res-nightmode.res-stylesheet-theme-nightModeClassic-u-RunTillYouPuke .thing:nth-of-type(4n+1) {
-    background: rgb(24, 24, 24); 
+    background: rgb(24, 24, 24);
 }
 
 .res-nightmode.res-stylesheet-theme-nightModeClassic-u-RunTillYouPuke .midcol .score, .res-nightmode.res-stylesheet-theme-nightModeClassic-u-RunTillYouPuke .moduleButton:not(.enabled) {
@@ -69,8 +69,8 @@ res-stylesheet-theme-nightModeClassic-u-RunTillYouPuke #sr-header-area, .res-nig
 }
 
 .res-nightmode.res-stylesheet-theme-nightModeClassic-u-RunTillYouPuke .content {
-    background: rgb(17, 17, 17); 
-    border-color: rgb(17, 17, 17); 
+    background: rgb(17, 17, 17);
+    border-color: rgb(17, 17, 17);
 }
 
 .res-nightmode.res-stylesheet-theme-nightModeClassic-u-RunTillYouPuke .link .rank {
@@ -101,9 +101,9 @@ res-stylesheet-theme-nightModeClassic-u-RunTillYouPuke #sr-header-area, .res-nig
     background-color: rgb(187, 187, 187);
     color: rgb(0, 0, 0);
     padding: 1px;
-}    
+}
 
-.res-nightmode.res-stylesheet-theme-nightModeClassic-u-RunTillYouPuke .titlebox form.toggle, 
+.res-nightmode.res-stylesheet-theme-nightModeClassic-u-RunTillYouPuke .titlebox form.toggle,
 .res-nightmode.res-stylesheet-theme-nightModeClassic-u-RunTillYouPuke .leavemoderator {
     background: #262626 none no-repeat scroll center left !important;
 }
@@ -206,3 +206,23 @@ res-stylesheet-theme-nightModeClassic-u-RunTillYouPuke #sr-header-area, .res-nig
     background-color: rgb(34, 34, 34) !important;
 }
 
+.res-nightmode .arrow.up,
+.res-nightmode .arrow.upmod,
+.res-nightmode .arrow.down,
+.res-nightmode .arrow.downmod {
+	width: 15px;
+	height: 14px;
+	margin-left: auto;
+	margin-right: auto;
+	background-image: url(http://i.imgur.com/o1IiV1o.png) !important;
+	background-repeat: no-repeat;
+}
+.res-nightmode .arrow.up { background-position: -15px 0 !important; }
+.res-nightmode .arrow.up:hover { background-position: -30px 0 !important; }
+.res-nightmode .arrow.upmod { background-position: 0 0 !important; }
+.res-nightmode .arrow.down { background-position: -15px -14px !important; }
+.res-nightmode .arrow.down:hover { background-position: -30px -14px !important; }
+.res-nightmode .arrow.downmod { background-position: 0 -14px !important; }
+.res-nightmode .dropdown.lightdrop a.choice:hover {
+	background-color: hsl(0,0%,10%);
+}
